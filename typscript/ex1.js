@@ -19,3 +19,9 @@ let b1 = +read.question('Bin1 ');
 let b2 = +read.question('Bin2 ');
 let media = ((b1 + b2 * 3) / 5);
 console.log(`Media = ${media}`);
+if (media >= 60) {
+    console.log('Aprovado(a)');
+}
+else {
+    console.log('Avaliação final');
+}
